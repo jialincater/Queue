@@ -14,7 +14,7 @@ public class Queue<T>{
         nOfElements = 0;
     }
     
-    public void push(T data){
+    public void queue(T data){
         if( isEmpty() ){
             node = new QueueNode<T>(data);
         	firstNode = lastNode = node;

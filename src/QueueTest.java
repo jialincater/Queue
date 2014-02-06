@@ -10,17 +10,17 @@ public class QueueTest{
        Queue<String> testQueue = new Queue<String>();
        
        System.out.println("Adding element to Stack");
-       testQueue.push("Gokhan");
+       testQueue.queue("Gokhan");
        testQueue.print();
-       testQueue.push("Arik");
+       testQueue.queue("Arik");
        testQueue.print();
-       testQueue.push("asd");
+       testQueue.queue("asd");
        testQueue.print();
-       testQueue.push("sss");
+       testQueue.queue("sss");
        testQueue.print();
-       testQueue.push("as");
+       testQueue.queue("as");
        testQueue.print();
-       testQueue.push("ds");
+       testQueue.queue("ds");
        testQueue.print();
        
        System.out.println("Popping element from the Stack");
